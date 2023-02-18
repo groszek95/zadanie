@@ -1,0 +1,26 @@
+@import 'pico';
+
+body {
+  padding: 30px;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+[role='header'] {
+  color: red;
+}
+
+.styled {
+  background-color: red;
+}
+
+[data-exp='failure'] {
+  background-color: red;
+}
+
+[data-exp='success'] {
+  background-color: green;
+}
